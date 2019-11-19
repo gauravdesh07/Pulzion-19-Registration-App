@@ -4,16 +4,16 @@ import java.util.ArrayList;
 
 public class WorkshopUser {
     String participant1;
-    private String id;
-    private String year;
-    private String volunteer;
+    String id;
+    String year;
+    String volunteer;
     String mail;
     String contact;
     String collegeName;
     String slot;
-    private ArrayList<String> events;
+    ArrayList<String> events;
     int cost;
-    private int pending;
+    int pending;
 
     WorkshopUser(String participant1, String volunteer, String mail, String contact, String collegeName, String slot, ArrayList<String> events, String id, String year, int cost, int pending) {
         this.participant1 = participant1;
